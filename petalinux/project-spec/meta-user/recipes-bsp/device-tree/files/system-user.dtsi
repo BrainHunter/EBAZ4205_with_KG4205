@@ -1,0 +1,42 @@
+/include/ "system-conf.dtsi"
+/ {
+
+
+	reserved-memory {
+		#address-cells = <1>;
+		#size-cells = <1>;
+		ranges;
+
+/*		reserved: buffer@0 {
+			compatible = "xlnx,axi-frmbuf-rd-v2.1";
+			reusable;
+			reg = <0x0 0x0E000000>;
+		};
+*/
+		display_reserved: fbuffer@F800000 {
+			//compatible = "xlnx,axi-frmbuf-rd-v2.1";
+			//reusable;
+			reg = <0xF800000 0x800000>;
+			no-map;
+		};
+	};
+
+/*	reserved-video-driver@0 {
+		compatible = "xlnx,reserved-memory";
+		memory-region = <&reserved>;
+		interrupt-parent = <&gic>;
+		interrupts = <0 29 4>;
+	};
+*/
+	framebuffer0: framebuffer@F800000 {
+	    compatible = "simple-framebuffer";
+	    reg = <0xF800000 (640 * 480 * 4)>;
+	    width = <640>;
+	    height = <480>;
+	    stride = <(640 * 4)>;
+	    //format = "r5g6b5"; // 2 bytes/pixel
+	    format = "a8b8g8r8"; // 4 bytes/pixel
+	    status = "okay";
+	};
+
+};
