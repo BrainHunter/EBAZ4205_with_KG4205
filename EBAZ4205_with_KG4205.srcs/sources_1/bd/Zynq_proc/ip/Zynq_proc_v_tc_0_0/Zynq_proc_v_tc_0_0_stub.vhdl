@@ -1,7 +1,7 @@
 -- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
--- Date        : Wed Mar 24 21:58:36 2021
+-- Date        : Sat May 13 18:04:39 2023
 -- Host        : brainhunter-VirtualBox running 64-bit Ubuntu 18.04.5 LTS
 -- Command     : write_vhdl -force -mode synth_stub -rename_top Zynq_proc_v_tc_0_0 -prefix
 --               Zynq_proc_v_tc_0_0_ Zynq_proc_v_tc_0_0_stub.vhdl

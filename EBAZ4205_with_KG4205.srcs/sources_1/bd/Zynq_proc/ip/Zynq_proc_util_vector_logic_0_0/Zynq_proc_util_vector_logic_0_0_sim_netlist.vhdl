@@ -1,10 +1,10 @@
 -- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
--- Date        : Wed Mar 24 21:57:58 2021
+-- Date        : Sat May 13 20:55:37 2023
 -- Host        : brainhunter-VirtualBox running 64-bit Ubuntu 18.04.5 LTS
 -- Command     : write_vhdl -force -mode funcsim
---               /opt/projects/EBAZ_VGA_test/EBAZ4205_base_wo_crystal.srcs/sources_1/bd/Zynq_proc/ip/Zynq_proc_util_vector_logic_0_0/Zynq_proc_util_vector_logic_0_0_sim_netlist.vhdl
+--               /opt/projects/EBAZ4205_with_KG4205/EBAZ4205_with_KG4205.srcs/sources_1/bd/Zynq_proc/ip/Zynq_proc_util_vector_logic_0_0/Zynq_proc_util_vector_logic_0_0_sim_netlist.vhdl
 -- Design      : Zynq_proc_util_vector_logic_0_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.

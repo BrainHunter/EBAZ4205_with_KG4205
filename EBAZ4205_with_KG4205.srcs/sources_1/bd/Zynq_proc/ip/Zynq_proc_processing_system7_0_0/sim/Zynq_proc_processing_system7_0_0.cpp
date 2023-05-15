@@ -1,4 +1,4 @@
-// (c) Copyright 1995-2021 Xilinx, Inc. All rights reserved.
+// (c) Copyright 1995-2023 Xilinx, Inc. All rights reserved.
 // 
 // This file contains confidential and proprietary information
 // of Xilinx, Inc. and is protected under U.S. and
@@ -129,7 +129,7 @@ void Zynq_proc_processing_system7_0_0::before_end_of_elaboration()
     xsc::common_cpp::properties M_AXI_GP0_transactor_param_props;
     M_AXI_GP0_transactor_param_props.addLong("SUPPORTS_NARROW_BURST", "0");
     M_AXI_GP0_transactor_param_props.addLong("DATA_WIDTH", "32");
-    M_AXI_GP0_transactor_param_props.addLong("FREQ_HZ", "50000000");
+    M_AXI_GP0_transactor_param_props.addLong("FREQ_HZ", "5e+07");
     M_AXI_GP0_transactor_param_props.addLong("ID_WIDTH", "12");
     M_AXI_GP0_transactor_param_props.addLong("ADDR_WIDTH", "32");
     M_AXI_GP0_transactor_param_props.addLong("AWUSER_WIDTH", "0");
@@ -219,7 +219,7 @@ void Zynq_proc_processing_system7_0_0::before_end_of_elaboration()
   {
     xsc::common_cpp::properties S_AXI_GP0_transactor_param_props;
     S_AXI_GP0_transactor_param_props.addLong("DATA_WIDTH", "32");
-    S_AXI_GP0_transactor_param_props.addLong("FREQ_HZ", "50000000");
+    S_AXI_GP0_transactor_param_props.addLong("FREQ_HZ", "5e+07");
     S_AXI_GP0_transactor_param_props.addLong("ID_WIDTH", "6");
     S_AXI_GP0_transactor_param_props.addLong("ADDR_WIDTH", "32");
     S_AXI_GP0_transactor_param_props.addLong("AWUSER_WIDTH", "0");

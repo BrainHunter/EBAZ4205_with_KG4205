@@ -258,7 +258,7 @@ Zynq_proc_v_frmbuf_rd_0_0_v_frmbuf_rd_mux_3g8j #(
     .din2_WIDTH( 8 ),
     .din3_WIDTH( 2 ),
     .dout_WIDTH( 8 ))
-v_frmbuf_rd_mux_3g8j_U31(
+v_frmbuf_rd_mux_3g8j_U33(
     .din0(StrmMPix_V_val_0_V_dout),
     .din1(StrmMPix_V_val_1_V_dout),
     .din2(StrmMPix_V_val_2_V_dout),
@@ -274,7 +274,7 @@ Zynq_proc_v_frmbuf_rd_0_0_v_frmbuf_rd_mux_3g8j #(
     .din2_WIDTH( 8 ),
     .din3_WIDTH( 2 ),
     .dout_WIDTH( 8 ))
-v_frmbuf_rd_mux_3g8j_U32(
+v_frmbuf_rd_mux_3g8j_U34(
     .din0(StrmMPix_V_val_0_V_dout),
     .din1(StrmMPix_V_val_1_V_dout),
     .din2(StrmMPix_V_val_2_V_dout),
@@ -290,7 +290,7 @@ Zynq_proc_v_frmbuf_rd_0_0_v_frmbuf_rd_mux_3g8j #(
     .din2_WIDTH( 8 ),
     .din3_WIDTH( 2 ),
     .dout_WIDTH( 8 ))
-v_frmbuf_rd_mux_3g8j_U33(
+v_frmbuf_rd_mux_3g8j_U35(
     .din0(StrmMPix_V_val_0_V_dout),
     .din1(StrmMPix_V_val_1_V_dout),
     .din2(StrmMPix_V_val_2_V_dout),

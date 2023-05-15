@@ -171,7 +171,7 @@
         </spirit:parameter>
         <spirit:parameter>
           <spirit:name>FREQ_HZ</spirit:name>
-          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_CTRL.FREQ_HZ">50000000</spirit:value>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_CTRL.FREQ_HZ">5e+07</spirit:value>
           <spirit:vendorExtensions>
             <xilinx:parameterInfo>
               <xilinx:parameterUsage>none</xilinx:parameterUsage>
@@ -460,7 +460,7 @@
           <spirit:name>FREQ_HZ</spirit:name>
           <spirit:displayName>Frequency in Hz</spirit:displayName>
           <spirit:description>Clock Frequency (Hz)</spirit:description>
-          <spirit:value spirit:resolve="user" spirit:id="BUSIFPARAM_VALUE.AP_CLK.FREQ_HZ">50000000</spirit:value>
+          <spirit:value spirit:resolve="user" spirit:id="BUSIFPARAM_VALUE.AP_CLK.FREQ_HZ">5e+07</spirit:value>
         </spirit:parameter>
         <spirit:parameter>
           <spirit:name>PHASE</spirit:name>
@@ -943,7 +943,7 @@
         </spirit:parameter>
         <spirit:parameter>
           <spirit:name>FREQ_HZ</spirit:name>
-          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.M_AXI_MM_VIDEO.FREQ_HZ">50000000</spirit:value>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.M_AXI_MM_VIDEO.FREQ_HZ">5e+07</spirit:value>
           <spirit:vendorExtensions>
             <xilinx:parameterInfo>
               <xilinx:parameterUsage>none</xilinx:parameterUsage>
@@ -1358,7 +1358,7 @@
         </spirit:parameter>
         <spirit:parameter>
           <spirit:name>FREQ_HZ</spirit:name>
-          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.M_AXIS_VIDEO.FREQ_HZ">50000000</spirit:value>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.M_AXIS_VIDEO.FREQ_HZ">5e+07</spirit:value>
           <spirit:vendorExtensions>
             <xilinx:parameterInfo>
               <xilinx:parameterUsage>none</xilinx:parameterUsage>
@@ -1491,11 +1491,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sat Mar 27 09:33:23 UTC 2021</spirit:value>
+            <spirit:value>Sat May 13 18:54:03 UTC 2023</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:3cc7c638</spirit:value>
+            <spirit:value>9:dd2825dd</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1510,11 +1510,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sat Mar 27 09:33:23 UTC 2021</spirit:value>
+            <spirit:value>Sat May 13 18:54:03 UTC 2023</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:3cc7c638</spirit:value>
+            <spirit:value>9:dd2825dd</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1528,11 +1528,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sat Mar 27 09:33:23 UTC 2021</spirit:value>
+            <spirit:value>Sat May 13 18:54:03 UTC 2023</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:3cc7c638</spirit:value>
+            <spirit:value>9:dd2825dd</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1548,11 +1548,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sat Mar 27 09:33:23 UTC 2021</spirit:value>
+            <spirit:value>Sat May 13 18:54:03 UTC 2023</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:3cc7c638</spirit:value>
+            <spirit:value>9:dd2825dd</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1567,11 +1567,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sat Mar 27 09:33:23 UTC 2021</spirit:value>
+            <spirit:value>Sat May 13 18:54:03 UTC 2023</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:e34c3453</spirit:value>
+            <spirit:value>9:729a033b</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1587,15 +1587,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sat Mar 27 09:33:23 UTC 2021</spirit:value>
+            <spirit:value>Sat May 13 18:54:03 UTC 2023</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:e34c3453</spirit:value>
-          </spirit:parameter>
-          <spirit:parameter>
-            <spirit:name>sim_type</spirit:name>
-            <spirit:value>rtl</spirit:value>
+            <spirit:value>9:729a033b</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1609,7 +1605,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:3cc7c638</spirit:value>
+            <spirit:value>9:dd2825dd</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1624,11 +1620,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sat Mar 27 09:34:58 UTC 2021</spirit:value>
+            <spirit:value>Sat May 13 18:57:02 UTC 2023</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:3cc7c638</spirit:value>
+            <spirit:value>9:dd2825dd</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1643,11 +1639,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sat Mar 27 09:34:58 UTC 2021</spirit:value>
+            <spirit:value>Sat May 13 18:57:02 UTC 2023</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:7e58a06f</spirit:value>
+            <spirit:value>9:d554c8fc</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -3223,15 +3219,15 @@
         <spirit:userFileType>mif</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/Zynq_proc_v_frmbuf_rd_0_0_Block_proc54.v</spirit:name>
+        <spirit:name>hdl/verilog/Zynq_proc_v_frmbuf_rd_0_0_Block_proc60.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/Zynq_proc_v_frmbuf_rd_0_0_Block_proc54_MEMOeOg.v</spirit:name>
+        <spirit:name>hdl/verilog/Zynq_proc_v_frmbuf_rd_0_0_Block_proc60_MEMOeOg.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/Zynq_proc_v_frmbuf_rd_0_0_Block_proc54_MEMOeOg_rom.dat</spirit:name>
+        <spirit:name>hdl/verilog/Zynq_proc_v_frmbuf_rd_0_0_Block_proc60_MEMOeOg_rom.dat</spirit:name>
         <spirit:userFileType>mif</spirit:userFileType>
       </spirit:file>
       <spirit:file>
@@ -3330,15 +3326,15 @@
         <spirit:userFileType>mif</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/Zynq_proc_v_frmbuf_rd_0_0_Block_proc54.v</spirit:name>
+        <spirit:name>hdl/verilog/Zynq_proc_v_frmbuf_rd_0_0_Block_proc60.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/Zynq_proc_v_frmbuf_rd_0_0_Block_proc54_MEMOeOg.v</spirit:name>
+        <spirit:name>hdl/verilog/Zynq_proc_v_frmbuf_rd_0_0_Block_proc60_MEMOeOg.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/Zynq_proc_v_frmbuf_rd_0_0_Block_proc54_MEMOeOg_rom.dat</spirit:name>
+        <spirit:name>hdl/verilog/Zynq_proc_v_frmbuf_rd_0_0_Block_proc60_MEMOeOg_rom.dat</spirit:name>
         <spirit:userFileType>mif</spirit:userFileType>
       </spirit:file>
       <spirit:file>
@@ -3578,7 +3574,7 @@
     <spirit:parameter>
       <spirit:name>HAS_RGBX8</spirit:name>
       <spirit:displayName>RGBX8</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.HAS_RGBX8" spirit:choiceRef="choice_list_8af5a703" spirit:order="20050">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.HAS_RGBX8" spirit:choiceRef="choice_list_8af5a703" spirit:order="20050">1</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>HAS_YUVX8</spirit:name>
@@ -3714,7 +3710,7 @@
     <spirit:parameter>
       <spirit:name>HAS_BGRX8</spirit:name>
       <spirit:displayName>BGRX8</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.HAS_BGRX8" spirit:choiceRef="choice_list_8af5a703" spirit:order="21400">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.HAS_BGRX8" spirit:choiceRef="choice_list_8af5a703" spirit:order="21400">1</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>HAS_UYVY8</spirit:name>
@@ -3729,7 +3725,7 @@
     <spirit:parameter>
       <spirit:name>HAS_BGR8</spirit:name>
       <spirit:displayName>BGR8</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.HAS_BGR8" spirit:choiceRef="choice_list_8af5a703" spirit:order="21700">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.HAS_BGR8" spirit:choiceRef="choice_list_8af5a703" spirit:order="21700">1</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>HAS_RGBX12</spirit:name>
@@ -3949,8 +3945,17 @@
         <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_CTRL.WUSER_WIDTH" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.AXIMM_DATA_WIDTH" xilinx:valueSource="user"/>
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.C_M_AXI_MM_VIDEO_DATA_WIDTH" xilinx:valueSource="user"/>
+        <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.HAS_ALPHA" xilinx:valueSource="user"/>
+        <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.HAS_BGR8" xilinx:valueSource="user"/>
+        <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.HAS_BGRA8" xilinx:valueSource="user"/>
+        <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.HAS_BGRX8" xilinx:valueSource="user"/>
+        <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.HAS_RGB8" xilinx:valueSource="user"/>
+        <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.HAS_RGBA8" xilinx:valueSource="user"/>
+        <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.HAS_RGBX8" xilinx:valueSource="user"/>
+        <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.HAS_YUV8" xilinx:valueSource="user"/>
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MAX_COLS" xilinx:valueSource="user"/>
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MAX_ROWS" xilinx:valueSource="user"/>
+        <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.NUM_VIDEO_COMPONENTS" xilinx:valueSource="user"/>
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.SAMPLES_PER_CLOCK" xilinx:valueSource="user"/>
       </xilinx:configElementInfos>
     </xilinx:coreExtensions>

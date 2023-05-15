@@ -625,8 +625,17 @@ proc create_root_design { parentCell } {
   set_property -dict [ list \
    CONFIG.AXIMM_DATA_WIDTH {64} \
    CONFIG.C_M_AXI_MM_VIDEO_DATA_WIDTH {64} \
+   CONFIG.HAS_ALPHA {0} \
+   CONFIG.HAS_BGR8 {1} \
+   CONFIG.HAS_BGRA8 {0} \
+   CONFIG.HAS_BGRX8 {1} \
+   CONFIG.HAS_RGB8 {1} \
+   CONFIG.HAS_RGBA8 {0} \
+   CONFIG.HAS_RGBX8 {1} \
+   CONFIG.HAS_YUV8 {0} \
    CONFIG.MAX_COLS {1920} \
    CONFIG.MAX_ROWS {1080} \
+   CONFIG.NUM_VIDEO_COMPONENTS {3} \
    CONFIG.SAMPLES_PER_CLOCK {1} \
  ] $v_frmbuf_rd_0
 

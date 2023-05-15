@@ -1,10 +1,10 @@
 -- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
--- Date        : Sat Mar 27 10:37:00 2021
+-- Date        : Sat May 13 20:59:21 2023
 -- Host        : brainhunter-VirtualBox running 64-bit Ubuntu 18.04.5 LTS
 -- Command     : write_vhdl -force -mode synth_stub
---               /opt/projects/EBAZ_VGA_test/EBAZ4205_base_wo_crystal.srcs/sources_1/bd/Zynq_proc/ip/Zynq_proc_v_frmbuf_rd_0_0/Zynq_proc_v_frmbuf_rd_0_0_stub.vhdl
+--               /opt/projects/EBAZ4205_with_KG4205/EBAZ4205_with_KG4205.srcs/sources_1/bd/Zynq_proc/ip/Zynq_proc_v_frmbuf_rd_0_0/Zynq_proc_v_frmbuf_rd_0_0_stub.vhdl
 -- Design      : Zynq_proc_v_frmbuf_rd_0_0
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7z010clg400-1
