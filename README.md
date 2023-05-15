@@ -9,15 +9,13 @@ This project is based on [EBAZ4205_base_wo_crystal](https://github.com/BrainHunt
 Currently only VGA output is implemented. 
 Camera is TBD.
 
-#build 
+# Build 
 
 ## Vivado Project:
 * generate bitstream file
 * export hardware with bitstream included: File->Export->Export Hardware
 
 ## petalinux:
-
-
 
 ```shell
 cd petalinux
@@ -30,6 +28,7 @@ petalinux-build
 
 petalinux-package --boot --format BIN --fsbl ./images/linux/zynq_fsbl.elf --fpga ../EBAZ4205_with_KG4205.runs/impl_1/Zynq_proc_wrapper.bit --u-boot --force
 ```
+
 
 
 ## VGA
